@@ -1,0 +1,17 @@
+body { 
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; 
+} 
+.done { 
+  text-decoration: line-through; 
+} 
+#list li {
+  display: flex; align-items: center; gap: 8px; 
+} 
+#list { 
+  list-style: none; /* 불릿 제거 */ 
+  padding-left: 0; /* 브라우저 기본 왼쪽 들여쓰기 제거 */ 
+  margin: 12px 0 0; /* 적당한 위 여백 */ 
+} 
+#list li button { 
+  margin-left: auto; /* 버튼을 오른쪽 끝으로 밀어냄 */ 
+}
